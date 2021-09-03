@@ -1,0 +1,15 @@
+.transactionHistory {
+  width: 100%;
+  text-align: center;
+}
+
+thead th {
+  font-weight: bold;
+  padding: 10px 15px;
+  background: teal;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background: #c0c0c0;
+}

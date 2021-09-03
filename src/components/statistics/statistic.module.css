@@ -1,0 +1,15 @@
+.statList {
+  display: flex;
+  padding: 0;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
