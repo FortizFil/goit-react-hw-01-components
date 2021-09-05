@@ -16,11 +16,10 @@ import s from './transaction.module.css';
 
   <tbody>
       {transactions.map(transaction => (< TransactionHistoryItem
-                   key={transaction.id}
-                   type={transaction.type}
-               amount={transaction.amount} 
-               currency={transaction.currency}
-               />))}         
+        key={transaction.id}
+        type={transaction.type}
+        amount={transaction.amount} 
+        currency={transaction.currency}/>))}         
   </tbody>
 </table>
      )
